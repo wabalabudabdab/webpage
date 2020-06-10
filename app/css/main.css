@@ -1,0 +1,37 @@
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+.block-bg {
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  position: absolute;
+  width: 100%;
+  text-align: center; }
+  .block-bg img {
+    width: 100%; }
+
+.menu {
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal; }
+
+.title {
+  position: absolute;
+  width: 100%; }
+
+  .button {
+    background: linear-gradient(to right, #4857DC 24%, rgba(52, 31, 138, 0) 180.53%);
+    width:60%;	
+    padding:0.4em 0.4em;
+    position:absolute;
+    border-radius: 3px;
+    margin:auto;
+    text-align:center;
+    left:0;
+    right:0;
+    top:75%;
+  }
+  
+

@@ -1,0 +1,46 @@
+$fromColor: #4857DC
+$toColor: rgba(52, 31, 138, 0)
+$direction: to right
+
+body
+    width: 100%
+    padding: 0
+    margin: 0
+
+.block-bg
+    position: relative      
+    img
+        width: 100%
+    p
+    font:
+        family: 'Poppins', sans-serif
+        weight: normal
+    h4
+    position: absolute
+    width: 100%
+    text-align: center
+
+
+.menu
+    a
+    font:
+        family: 'Poppins', sans-serif
+        weight: normal
+
+.title
+    position: absolute
+    width: 100% 
+
+
+
+.button
+    @include linear-gradient(to right, $fromColor, $toColor)
+	width: 60%
+	padding: 0.4em 0.4em
+	position: absolute
+	border-radius: 3px
+	margin: auto
+	text-align: center
+	left: 0
+	right: 0
+	top: 75%
