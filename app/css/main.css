@@ -3,35 +3,205 @@ body {
   padding: 0;
   margin: 0; }
 
-.block-bg {
-  position: relative;
+h4 {
+  color: white;
+  font-size: 1.5em;
   font-family: 'Poppins', sans-serif;
-  font-weight: normal;
-  position: absolute;
-  width: 100%;
-  text-align: center; }
+  font-weight: normal; }
+
+.block-bg {
+  position: relative; }
   .block-bg img {
     width: 100%; }
 
 .menu {
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  top: 0px;
+  position: absolute;
+  background-color: #666DD6;
   font-family: 'Poppins', sans-serif;
-  font-weight: normal; }
+  font-weight: normal;
+  color: #fff; }
 
 .title {
   position: absolute;
-  width: 100%; }
+  top: 20%;
+  width: 100%;
+  color: #5F5A5A; }
+  .title p {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal; }
+  .title h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 3vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter; }
 
-  .button {
-    background: linear-gradient(to right, #4857DC 24%, rgba(52, 31, 138, 0) 180.53%);
-    width:60%;	
-    padding:0.4em 0.4em;
-    position:absolute;
-    border-radius: 3px;
-    margin:auto;
-    text-align:center;
-    left:0;
-    right:0;
-    top:75%;
-  }
-  
+.button {
+  width: 100%;
+  position: absolute;
+  top: 70%;
+  width: 20%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  border-radius: 3px;
+  text-align: center;
+  background-color: #4857DC;
+  background: linear-gradient(90deg, #4857DC 24%, rgba(52, 31, 138, 0) 180.53%);
+  color: #fff;
+  text-decoration: none; }
 
+.about_goods {
+  position: relative;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin: 5wv;
+  display: grid;
+  grid-gap: 2vw;
+  grid-template-columns: 250px 250px 250px;
+  grid-template-rows: 250px 250px;
+  width: 100%;
+  justify-content: center;
+  height: auto;
+  content: '';
+  background-color: #4857DC;
+  background: linear-gradient(270deg, #4857DC 24%, rgba(52, 31, 138, 0) 180.53%);
+  margin-top: -1%; }
+  .about_goods .button {
+    width: 70%;
+    padding: 0.5em; }
+
+.goods {
+  position: relative;
+  border-radius: 3px;
+  padding: 1vw;
+  margin: 10px;
+  content: '';
+  background-color: #fff;
+  text-align: center; }
+
+.advantages {
+  position: relative;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin: 5wv;
+  display: grid;
+  grid-gap: 2vw;
+  grid-template-columns: 250px 250px 250px;
+  grid-template-rows: 250px;
+  width: 100%;
+  justify-content: center;
+  height: auto;
+  content: '';
+  background-image: url("../img/30.png"); }
+
+.adv_items {
+  border-radius: 3px;
+  padding: 1vw;
+  margin: 10px;
+  content: '';
+  background-color: #fff;
+  text-align: center; }
+  .adv_items img {
+    text-align: center; }
+
+.reviews {
+  position: relative;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin: 5wv;
+  display: grid;
+  grid-gap: 2vw;
+  grid-template-columns: 250px 250px 250px;
+  grid-template-rows: 300px;
+  width: 100%;
+  justify-content: center;
+  height: auto;
+  content: '';
+  background-color: #4857DC;
+  background: linear-gradient(90deg, #4857DC 24%, rgba(52, 31, 138, 0) 180.53%); }
+
+.reviews_items {
+  border-radius: 3px;
+  padding: 1vw;
+  margin: 10px;
+  content: '';
+  background-color: #fff;
+  text-align: center; }
+
+.user {
+  position: relative; }
+  .user img {
+    width: 30%;
+    position: absolute;
+    left: 10%; }
+  .user p {
+    position: absolute;
+    left: 50%; }
+
+.team {
+  position: relative;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin: 5wv;
+  display: grid;
+  grid-gap: 5vw;
+  grid-template-columns: 250px 250px 250px;
+  grid-template-rows: 250px;
+  width: 100%;
+  justify-content: center;
+  height: auto;
+  content: '';
+  background-image: url(../img/40.png); }
+
+.team_items {
+  border-radius: 3px;
+  margin: 0%;
+  content: '';
+  border-radius: 50%;
+  background-color: #fff;
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+  text-align: center; }
+
+.clients {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin: 5wv;
+  display: grid;
+  grid-gap: 2vw;
+  grid-template-columns: 350px 100px 350px;
+  grid-template-rows: 100px;
+  width: 100%;
+  justify-content: center;
+  height: auto;
+  content: '';
+  background-color: #4857DC; }
+
+.clients_items {
+  border-radius: 3px;
+  padding: 1vw;
+  margin: 10px;
+  content: '';
+  background-color: #fff;
+  text-align: center; }
+
+footer {
+  padding-top: 5%;
+  padding-bottom: 10%;
+  display: grid;
+  grid-gap: 2vw;
+  grid-template-columns: 500px 300px;
+  grid-template-rows: 100px;
+  width: 100%;
+  justify-content: center;
+  height: auto;
+  content: '';
+  background-color: #2E2D2D; }
